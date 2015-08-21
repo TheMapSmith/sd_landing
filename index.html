@@ -36,16 +36,19 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
+          <!-- <div class="masthead clearfix">
             <div class="inner">
               <h3 class="masthead-brand">Surface Designs</h3>
             </div>
-          </div>
+          </div> -->
 
           <div class="inner cover">
             <h1 class="cover-heading">Surface Designs</h1>
             <p class="lead">
-              A place for the things and the stuff.
+              Stunning Satellite Imagery Shirts
+            </p>
+            <p class="lead2">
+              <i>Coming Soon</i>
             </p>
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Learn more</a>
@@ -71,5 +74,24 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/bgswitcher.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+    $(".site-wrapper").bgswitcher({
+      images: ["img/pdx_275.jpg", "img/pdx_275_tee.jpg"],
+      interval: 5000,
+      start: true,
+      loop: true,
+      effect: "fade",
+      duration: 500,
+      easing: "swing",
+    });
+
+  });
+
+    </script>
   </body>
 </html>

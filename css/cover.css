@@ -171,14 +171,38 @@ body {
 }
 
 .cover-heading {
-  font-size: 7em;
-  letter-spacing: 5px;
+  font-size: 4em;
+  letter-spacing: 2px;
 }
 
 .lead {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .lead2 {
-  font-size: 2em;
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+  .cover-heading {
+    font-size: 7em;
+    letter-spacing: 5px;
+  }
+
+  .lead {
+    font-size: 3em;
+  }
+
+  .lead2 {
+    font-size: 2em;
+  }
+
+}
+
+h1 {
+  font-family: Lato, Helvetica, sans-serif;
+  text-shadow:  -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
 }
